@@ -373,7 +373,7 @@ if __name__ == '__main__':
 
     seed = input("seed? ")
     random.seed(seed)
-    file_name = "project 2\\" + input("pieces file name? ")
+    file_name = input("pieces file name? ")
     length = int(input("board length? "))
     width = int(input("board width? "))
 
